@@ -135,8 +135,8 @@
       "PassiveName": "CX_Wizard_Boost",
       "Act": {
         "1": {
-          "Spells": ["Shout_BladeWard", "Projectile_FireBolt", "Projectile_RayOfFrost", "Projectile_EldritchBlast", "Target_Counterspell"],
-          "ExtraPassives": ["WarCaster_OpportunitySpell", "SpellSniper_Critical"]
+          "Spells": ["Shout_BladeWard", "Projectile_FireBolt", "Projectile_RayOfFrost", "Projectile_EldritchBlast", "Target_Counterspell", "Shout_Shield_Wizard", "Shout_Blur", "Shout_MirrorImage"],
+          "ExtraPassives": ["WarCaster_OpportunitySpell", "SpellSniper_Critical", "ArmorOfShadows"]
         },
         "2":{
           "Spells":["Target_BoneChill", "Target_TollTheDead"],
@@ -151,8 +151,8 @@
       "PassiveName": "CX_Sorcerer_Boost",
       "Act": {
         "1": {
-          "Spells": ["Shout_BladeWard", "Projectile_FireBolt", "Projectile_RayOfFrost", "Target_Counterspell"],
-          "ExtraPassives": ["WarCaster_OpportunitySpell", "SpellSniper_Critical"]
+          "Spells": ["Shout_BladeWard", "Projectile_FireBolt", "Projectile_RayOfFrost", "Target_Counterspell", "Shout_Shield_Wizard", "Shout_Blur", "Shout_MirrorImage"],
+          "ExtraPassives": ["WarCaster_OpportunitySpell", "SpellSniper_Critical", "ArmorOfShadows"]
         },
         "2":{
           "Spells":["Target_BoneChill", "Target_TollTheDead"],
@@ -167,8 +167,8 @@
       "PassiveName": "CX_Warlock_Boost",
       "Act": {
         "1": {
-          "Spells": ["Shout_BladeWard", "Projectile_EldritchBlast", "Target_GreenFlameBlade", "Target_BoomingBlade", "Target_Hex"],
-          "ExtraPassives": ["WarCaster_OpportunitySpell", "AgonizingBlast", "RepellingBlast"]
+          "Spells": ["Shout_BladeWard", "Projectile_EldritchBlast", "Target_GreenFlameBlade", "Target_BoomingBlade", "Target_Hex", "Target_MageArmor"],
+          "ExtraPassives": ["WarCaster_OpportunitySpell", "AgonizingBlast", "RepellingBlast", "ArmorOfShadows"]
         },
         "2":{
           "Spells":["Target_BoneChill", "Target_TollTheDead", "Target_HungerOfHadar", "Target_Darkness"],
@@ -215,7 +215,7 @@
     },
     {
       "PassiveName": "CX_Spells_L2C",
-      "Spells": ["Target_MaximiliansEarthenGrasp","Target_HoldPerson","Target_Silence", "Target_Blindness"]
+      "Spells": ["Target_HoldPerson","Target_Silence", "Target_Blindness"]
     },
     {
       "PassiveName": "CX_Spells_L3C",
